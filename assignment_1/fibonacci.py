@@ -13,7 +13,7 @@
     @Date: Nov 19, 2021
     @Links: https://classroom.edyoda.com/program-modules/DS291021/Python/1784/?type=assignment
 """
-number1, number2, temp_number = 0, 1, 0
+number1, number2, temp_number = 1, 1, 0
 
 print("Output : ")
 for i in range(0, 15):
