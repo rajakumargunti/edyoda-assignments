@@ -13,10 +13,14 @@
     @Date: Dec 2, 2021
     @Links: https://classroom.edyoda.com/program-modules/DS291021/Python/1785/?type=assignment
 """
-
+#way 1
 dictionary = { }
 
 for i in range(ord('a'), ord('z')+1):
 	dictionary[chr(i)] = i
 
 print(dictionary)  
+
+#way 2
+dictionary = {chr(i) : i for i in range(ord('a'), ord('z')+1)}
+print(dictionary)
