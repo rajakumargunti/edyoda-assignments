@@ -38,3 +38,12 @@ def sum_of_list_2(list):
 
 sum_of_list_2(sample_list)
 print(sum)
+
+# Way 3
+def sum_of_list_3(*arg):
+    sum = 0
+    for i in arg:
+        sum += i
+    print(sum)
+
+sum_of_list_3(*sample_list);
